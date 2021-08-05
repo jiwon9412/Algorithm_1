@@ -9,9 +9,7 @@ import java.io.InputStreamReader;
 public class Bj2108 {
 
 	public static void main(String[] args) throws IOException {
-		
-		//mode부분 다시풀어야댐 modeArr에 이전의 max값들까지 다들어가버림
-		
+				
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		int N = Integer.parseInt(br.readLine());
